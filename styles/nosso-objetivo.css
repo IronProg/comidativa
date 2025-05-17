@@ -31,6 +31,10 @@
     padding: 0.5rem;
 }
 
+.objetivos-container .card-footer {
+    text-decoration: none;
+}
+
 .objetivos-container .card-footer:hover {
     background-color: #187218;
 }
