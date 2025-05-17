@@ -1,0 +1,16 @@
+/*styles.css*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+p {
+    color: #5A6F46;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 100;
+    background-color: #1a4314;
+    text-align: justify;
+    padding: 10px;
+}
