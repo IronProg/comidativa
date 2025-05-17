@@ -1,115 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-        rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/form.css">
-    <title>ComidAtiva</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/form.css">
+  <title>ComidAtiva</title>
 </head>
+
 <body>
-    <nav>
-        <div class="logo-container">
-            <img class="logo" src="assets/images/logo_completo.png" alt="Logo do site" class="logo">
+  <nav>
+    <div class="logo-container">
+      <img class="logo" src="assets/images/logo_completo.png" alt="Logo do site" class="logo">
+    </div>
+
+    <ul class="menu">
+      <li>
+        <a href="./index.html" class="nav-menu-link">Home</a>
+      </li>
+      <li>
+        <a href="./quem-somos.html" class="nav-menu-link">Quem somos </a>
+      </li>
+      <li>
+        <a href="./form.html" class="nav-menu-link">Contato </a>
+      </li>
+      <li>
+        <a href="./nosso-objetivo.html" class="nav-menu-link">Nosso Objetivo </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="form-page-container">
+    <section class="info-section">
+      <img src="./assets/images/logo_completo.png" alt="Logo da ComidAtiva">
+
+      <h1>Venha fazer parte desse projeto!</h1>
+
+      <p>
+        Junte-se à tantas outras empresas parceiras que fazem do nosso páis um lugar melhor! <br>
+        Envie as informações de contato da sua empresa que em breve um especialista do nosso time entrará em contato com
+        você.
+      </p>
+
+      <p>Ou entre em contato em um dos canais abaixo:</p>
+
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-envelope mr-2" style="font-size: 20px;"></i>
+          suportecomidaativa@gmail.com
+        </li>
+
+        <li class="clickable">
+          <a href="https://www.instagram.com/convidativa_/" target="_blank">
+            <img src="./assets/vectors/Instagram_icon.png" alt="Instagram Logo">
+            @comidativa_
+          </a>
+        </li>
+
+        <li class="clickable">
+          <a href="https://www.youtube.com/channel/UC1dZS4eDXej9875BUxK_XlQ" target="_blank">
+            <img src="./assets/vectors/Youtube_logo.png" alt="Youtube Logo">
+            @FiapGrupo8
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="form-section">
+      <div class="fiap-logo-container">
+        <img src="./assets/images/logo_fiap.png" alt="">
+      </div>
+
+      <form class="form-contato">
+        <div class="input-group">
+          <label for="nome">Nome *</label>
+          <input type="text" name="nome" id="input-nome" required>
         </div>
 
-        <ul class="menu">
-            <li>
-                <a href="./index.html" class="nav-menu-link">Home</a>
-            </li>
-            <li>
-                <a href="./quem-somos.html" class="nav-menu-link">Quem somos </a>
-            </li>
-            <li>
-                <a href="./form.html" class="nav-menu-link">Contato </a>
-            </li>
-            <li>
-                <a href="./nosso-objetivo.html" class="nav-menu-link">Nosso Objetivo </a>
-            </li>
+        <div class="input-group">
+          <label for="email">Email *</label>
+          <input type="email" name="email" id="input-email" required>
+        </div>
+
+        <div class="input-group">
+          <label for="telefone">Telefone Comercial</label>
+          <input type="tel" name="telefone" id="input-telefone">
+        </div>
+
+        <div class="input-group">
+          <label for="empresa">Empresa *</label>
+          <input type="text" name="empresa" id="input-empresa" required>
+        </div>
+
+        <div class="input-group">
+          <label for="cargo">Cargo *</label>
+          <input type="text" name="cargo" id="input-cargo" required>
+        </div>
+
+        <div class="input-group">
+          <label for="captcha">8+2?</label>
+          <input type="text" name="captcha" id="input-captcha" required>
+        </div>
+
+        <button> Entrar em contato </button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <div id="footer_content">
+      <div class="footer-text">
+        <ul class="footer-list">
+          <img src="assets/images/logo_textual.png" width="200px" height="auto" class="img">
+
+          <li>
+            <a href="./index.html">INÍCIO</a>
+          </li>
+          <li>
+            <a href="./nosso-objetivo.html">NOSSO OBJETIVO</a>
+          </li>
+          <li>
+            <a href="https://www.fiap.com.br/" target="_blank">FIAP</a>
+          </li>
+          <li>
+            <a href="./quem-somos.html">QUEM SOMOS</a>
+          </li>
+          <li>
+            <a href="#">POLÍTICA DE PRIVACIDADE</a>
+          </li>
         </ul>
-    </nav>
-
-    <div class="form-page-container">
-        <section class="info-section">
-            <img src="./assets/images/logo_completo.png" alt="Logo da ComidAtiva">
-
-            <h1>Venha fazer parte desse projeto!</h1>
-
-            <p>
-                Junte-se à tantas outras empresas parceiras que fazem do nosso páis um lugar melhor! <br>
-                Envie as informações de contato da sua empresa que em breve um especialista do nosso time entrará em contato com você.
-            </p>
-
-            <p>Ou entre em contato em um dos canais abaixo:</p>
-
-            <ul class="contact-list">
-                <li>
-                    <i class="fa-solid fa-envelope mr-2" style="font-size: 20px;"></i>
-                    suportecomidaativa@gmail.com
-                </li>
-
-                <li class="clickable">
-                    <a href="https://www.instagram.com/convidativa_/" target="_blank">
-                        <img src="./assets/vectors/Instagram_icon.png" alt="Instagram Logo">
-                        @comidativa_
-                    </a>
-                </li>
-
-                <li class="clickable">
-                    <a href="https://www.youtube.com/channel/UC1dZS4eDXej9875BUxK_XlQ" target="_blank">
-                        <img src="./assets/vectors/Youtube_logo.png" alt="Youtube Logo">
-                        @FiapGrupo8
-                    </a>
-                </li>
-            </ul>
-        </section>
-
-        <section class="form-section">
-            <div class="fiap-logo-container">
-                <img src="./assets/images/logo_fiap.png" alt="">
+        <ul class="footer-list">
+          <li>
+            <h3>CONTATO</h3>
+          </li>
+          <li class="footer-social-midia">
+            <div id="footer_social_midia">
+              <a href="#" class="footer_link" id="E-mail">
+                <i class="fa-regular fa-envelope icone"></i>
+              </a>
             </div>
-
-            <form class="form-contato">
-                <div class="input-group">
-                    <label for="nome">Nome *</label>
-                    <input type="text" name="nome" id="input-nome" required>
-                </div>
-                
-                <div class="input-group">
-                    <label for="email">Email *</label>
-                    <input type="email" name="email" id="input-email" required>
-                </div>
-
-                <div class="input-group">
-                    <label for="telefone">Telefone Comercial</label>
-                    <input type="tel" name="telefone" id="input-telefone">
-                </div>
-                
-                <div class="input-group">
-                    <label for="empresa">Empresa *</label>
-                    <input type="text" name="empresa" id="input-empresa" required>
-                </div>
-
-                <div class="input-group">
-                    <label for="cargo">Cargo *</label>
-                    <input type="text" name="cargo" id="input-cargo" required>
-                </div>
-
-                <div class="input-group">
-                    <label for="captcha">8+2?</label>
-                    <input type="text" name="captcha" id="input-captcha" required>
-                </div>
-
-                <button> Entrar em contato </button>
-            </form>
-        </section>
+            <p class="E-mail">suportecomidaativa@gmail.com</p>
+          </li>
+        </ul>
+        <div id="footer_contacts">
+          <div id="footer_social_midia">
+            <a href="https://www.instagram.com/convidativa_/" target="_blank">
+              <img src="./assets/vectors/Instagram_icon.png" alt="Instagram Logo" width="40px">
+            </a>
+            <a href="https://www.youtube.com/@FiapGrupo8" target="_blank">
+              <img src="./assets/vectors/Youtube_logo.png" alt="Youtube Logo" width="40px">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <script src="./scripts/main.js"></script>
+    <div id="footer_copyright">
+      &#169
+      Copyrigth 2025 COMIDATIVA. Todos dos direitos reservados.
+    </div>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
 </body>
+
 </html>

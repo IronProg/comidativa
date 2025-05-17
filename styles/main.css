@@ -18,6 +18,10 @@ nav {
   background: #D1B48C;
 }
 
+main {
+  padding-bottom: 2rem;
+}
+
 nav .logo-container {
   height: auto;
   width: 180px;
