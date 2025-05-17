@@ -1,0 +1,25 @@
+.subtitulo {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+main {
+  width: 100%;
+  padding: 3rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: justify;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #228b22;
+  border-radius: 8px;
+  overflow: hidden;
+}
