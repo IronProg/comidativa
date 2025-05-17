@@ -90,3 +90,31 @@ form.form-contato button:hover {
 form.form-contato button:active {
   background-color: #49270f;
 }
+
+ul.contact-list {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+ul li.clickable a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+ul.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.contact-list img {
+  height: auto;
+  width: 20px!important;
+}
