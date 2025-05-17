@@ -1,5 +1,5 @@
 body {
-  background-color: #5a6f46;
+  background-color: #DED6C3;
   height: 100vh;
 }
 
@@ -101,10 +101,14 @@ ul.contact-list {
 
 ul li.clickable a {
   text-decoration: none;
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+ul li.clickable a:hover {
+  color: darkslategray;
 }
 
 ul.contact-list li {
