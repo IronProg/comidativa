@@ -1,0 +1,55 @@
+.quem-somos-title {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.quem-somos-title h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.quem-somos-title hr {
+    margin-top: 0.2rem;
+}
+
+.equipe-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.equipe-container .membro {
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+
+.membro-img-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.membro img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.membro h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.membro p {
+    color: darkgray;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}

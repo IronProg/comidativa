@@ -1,0 +1,43 @@
+.nosso-objetivo-title {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nosso-objetivo-title h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nosso-objetivo-title p {
+    text-align: center;
+}
+
+.objetivos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.objetivos-container .card-footer {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #228b22;
+    display: flex;
+    justify-content: center;
+}
+
+.objetivos-container .card-body {
+    padding: 0.5rem;
+}
+
+.objetivos-container .card-footer:hover {
+    background-color: #187218;
+}
+
+.objetivos-container .card-footer span {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
