@@ -41,13 +41,14 @@ section {
 }
 
 .form-section {
-  height: calc(100vh - 108px);
+  min-height: calc(100vh - 108px);
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 80%;
+  padding: 2rem auto;
 }
 
 form.form-contato {
