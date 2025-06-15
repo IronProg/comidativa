@@ -83,32 +83,26 @@
       <form class="form-contato">
         <div class="input-group">
           <label for="nome">Nome *</label>
-          <input type="text" name="nome" id="input-nome" required>
+          <input type="text" name="nome" id="input-nome">
+          <div class="error-container" id="input-nome-error-container"></div>
         </div>
 
         <div class="input-group">
           <label for="email">Email *</label>
-          <input type="email" name="email" id="input-email" required>
+          <input type="text" name="email" id="input-email">
+          <div class="error-container" id="input-email-error-container"></div>
         </div>
 
         <div class="input-group">
           <label for="telefone">Telefone</label>
           <input type="tel" name="telefone" id="input-telefone">
+          <div class="error-container" id="input-telefone-error-container"></div>
         </div>
 
         <div class="input-group">
-          <label for="empresa">Empresa *</label>
-          <input type="text" name="empresa" id="input-empresa" required>
-        </div>
-
-        <div class="input-group">
-          <label for="cargo">Cargo *</label>
-          <input type="text" name="cargo" id="input-cargo" required>
-        </div>
-
-        <div class="input-group">
-          <label for="captcha">8+2?</label>
-          <input type="text" name="captcha" id="input-captcha" required>
+          <label for="captcha">Descrição da Mensagem *</label>
+          <textarea name="descricao" id="input-descricao"></textarea>
+          <div class="error-container" id="input-descricao-error-container"></div>
         </div>
 
         <button> Entrar em contato </button>
@@ -169,6 +163,8 @@
       </span>
     </div>
   </footer>
+
+  <script src="./scripts/form.js"></script>
 </body>
 
 </html>

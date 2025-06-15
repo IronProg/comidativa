@@ -61,6 +61,15 @@ form.form-contato {
   margin: 0;
 }
 
+.input-group textarea {
+  all: unset;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px rgb(212, 200, 178) solid;
+  height: 10rem;
+  background-color: #dfd5c3;
+}
+
 .input-group input {
   all: unset;
   width: 100%;
